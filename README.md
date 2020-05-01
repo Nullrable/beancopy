@@ -1,0 +1,2 @@
+# beancopy
+ mapstruct, cglib, beanutils
