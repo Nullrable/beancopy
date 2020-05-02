@@ -15,11 +15,11 @@ import java.util.UUID;
  */
 public class ModelGenetator {
 
-    public static List<AppUser> createAppusers(){
+    public static List<AppUser> createAppusers(int size){
 
         List<AppUser> list = new ArrayList<>();
 
-        for(int i = 0; i < 100; i++){
+        for(int i = 0; i < size; i++){
 
             list.add(creatAppUser(i));
         }

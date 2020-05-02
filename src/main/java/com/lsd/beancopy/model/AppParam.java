@@ -3,7 +3,7 @@ package com.lsd.beancopy.model;
 import lombok.Data;
 
 /**
- * @Author: nhsoft.lsd
+ * @Author: lsd
  * @Description:
  * @Date:Create：in 2020-05-01 21:57
  * @Modified By：

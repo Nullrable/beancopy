@@ -88,7 +88,7 @@ public class CopyUtil {
                     method = kClass.getMethod(methodName, kField.getType());
 
                 } catch (NoSuchMethodException e){
-                    log.debug(String.format("%s.%s不存在", kClass.getName(), methodName));
+//                    log.debug(String.format("%s.%s不存在", kClass.getName(), methodName));
                 }
                 if(method != null){
                     method.invoke(k, to(field.get(v), kField.getType()));
