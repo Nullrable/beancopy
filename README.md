@@ -1,7 +1,7 @@
 # Java中比较实用实体工具介绍
 
-源码地址：https://github.com/Nullrable/beancopy
-
+[源码地址](https://github.com/Nullrable/beancopy
+)
 大家一般编码过程中，经常会遇到DO对象转化为DTO对象，对象和对象之间转换一般需要用到转换工具，毕竟使用getter/setter太过麻烦
 
 ```
@@ -21,16 +21,17 @@ MapStruct is a Java annotation processor for the generation of type-safe bean ma
 
 可以这么理解：类型转化中必须指定具体的类型（不能使用范性，因为MapStruct是在编译期生成实现，类似lombok），Java编译器会针对任何表达式推断出一个明显类型（Apparent Type），Java编译器可以基于明显类型进行类型检查
 
-doc：https://mapstruct.org/documentation/stable/reference/html/
+[相关资料](https://mapstruct.org/documentation/stable/reference/html/)
 ## cglib介绍
 是一个强大的，高性能，高质量的Code生成类库，它可以在运行期扩展Java类与实现Java接口。Hibernate支持它来实现PO(Persistent Object 持久化对象)**字节码**的动态生成。
 在实现内部，CGLIB库使用了ASM这一个轻量但高性能的字节码操作框架来转化字节码，产生新类。
 
-doc：https://github.com/cglib/cglib/wiki
+[相关资料](https://github.com/cglib/cglib/wiki)
 ## Spring BeanUtils介绍
 Spring BeanUtils提供对Java反射和自省API的包装。其主要目的是利用反射机制对JavaBean的属性进行处理
 
-doc：https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/BeanUtils.html
+[相关资料
+](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/BeanUtils.html)
 ## 性能对比
 
 |  | 100 | 1000 | 10000 | 100000 |
