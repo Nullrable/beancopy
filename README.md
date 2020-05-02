@@ -1,7 +1,7 @@
 # Java中比较实用实体工具介绍
 
-[源码地址](https://github.com/Nullrable/beancopy
-)
+[源码地址](https://github.com/Nullrable/beancopy)
+
 大家一般编码过程中，经常会遇到DO对象转化为DTO对象，对象和对象之间转换一般需要用到转换工具，毕竟使用getter/setter太过麻烦
 
 ```
@@ -50,7 +50,8 @@ Spring BeanUtils提供对Java反射和自省API的包装。其主要目的是利
 
 ```
 就是编译器将源代码翻译成机器能识别的代码，比如Java只有JVM识别的字节码，,C#中只有CLR能识别的MSIL。
-编译器就像老师一样，会帮学生进行词法分析，愈发语法分析，有没有错别字和病句，如果有错误就会显示的知名error或warnning。这个就是Java中编译时检查或者静态检查
+编译器就像老师一样，会帮学生进行词法分析，愈发语法分析，有没有错别字和病句，
+如果有错误就会显示的知名error或warnning。这个就是Java中编译时检查或者静态检查
 ```
 运行时
 
